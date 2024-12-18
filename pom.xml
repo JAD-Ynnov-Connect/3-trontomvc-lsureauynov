@@ -11,6 +11,10 @@
     <modules>
         <module>tron-main</module>
         <module>tron-test</module>
+        <module>tron-model</module>
+        <module>tron-share</module>
+        <module>tron-view</module>
+        <module>tron-controller</module>
     </modules>
 
     <properties>

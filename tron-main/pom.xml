@@ -9,6 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
+    <groupId>com.jad.tron</groupId>
     <artifactId>tron-main</artifactId>
 
     <properties>
@@ -16,6 +17,33 @@
         <maven.compiler.target>${project.maven.compiler.version}</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.jad.tron</groupId>
+            <artifactId>tron-share</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.jad.tron</groupId>
+            <artifactId>tron-view</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.jad.tron</groupId>
+            <artifactId>tron-controller</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.jad.tron</groupId>
+            <artifactId>tron-model</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
 
 </project>
